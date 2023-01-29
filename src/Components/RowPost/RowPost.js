@@ -22,7 +22,7 @@ function RowPost(props) {
         playerVars: {
           // https://developers.google.com/youtube/player_parameters
           autoplay: 1,
-        },
+        }, 
       };
       const handleMovie = (id)=>{
         console.log(id);
